@@ -4,9 +4,9 @@ This repository demonstrates how to upload files using React-Query along with Ax
 
 ## Screenshots
 
-<img width="1552" alt="Upload" src="/public/1.jpeg">
-
 <img width="1552" alt="Upload" src="/public/2.jpeg">
+
+<img width="1552" alt="Upload" src="/public/1.jpeg">
 
 ## Description
 
