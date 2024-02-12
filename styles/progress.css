@@ -1,0 +1,20 @@
+.progress {
+  @apply relative w-full appearance-none overflow-hidden;
+  @apply h-3 rounded-md;
+  &::-moz-progress-bar {
+    @apply bg-neutral;
+  }
+  &-primary::-moz-progress-bar {
+    @apply bg-primary;
+  }
+
+  &::-webkit-progress-bar {
+    @apply bg-neutral/20 rounded-md;
+  }
+  &::-webkit-progress-value {
+    @apply bg-neutral rounded-md;
+  }
+  &-primary::-webkit-progress-value {
+    @apply bg-primary/70;
+  }
+}
