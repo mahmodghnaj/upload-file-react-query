@@ -1,41 +1,25 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# React-Query File Upload with Axios
 
-## Getting Started
+This repository demonstrates how to upload files using React-Query along with Axios in a React application, with support for tracking upload progress using `onUploadProgress`.
 
-First, run the development server:
+## Description
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+This repository provides a simple guide and implementation for uploading files in a React application using React-Query and Axios. File uploading is a common requirement in web applications, and this setup enables efficient handling of asynchronous file upload operations while providing progress feedback to the user.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Features
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+- **React-Query Integration**: Utilize React-Query's hooks and query functions for managing file upload operations.
+- **Axios Interceptor**: Implement an Axios interceptor to track upload progress using the `onUploadProgress` callback.
+- **User Feedback**: Display progress feedback to enhance the user experience during file uploads.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+## Usage
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+Follow the instructions in this repository to integrate file uploading functionality into your React application. You can customize the implementation according to your specific requirements and UI preferences.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Contributions
 
-## Learn More
+Contributions are welcome! Feel free to suggest improvements, report bugs, or add new features via issues or pull requests.
 
-To learn more about Next.js, take a look at the following resources:
+## License
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-# upload-file-react-query
+This project is licensed under the MIT License.
