@@ -2,6 +2,12 @@
 
 This repository demonstrates how to upload files using React-Query along with Axios in a React application, with support for tracking upload progress using `onUploadProgress`.
 
+## Screenshots
+
+<img width="1552" alt="Upload" src="/public/1.jpeg">
+
+<img width="1552" alt="Upload" src="/public/2.jpeg">
+
 ## Description
 
 This repository provides a simple guide and implementation for uploading files in a React application using React-Query and Axios. File uploading is a common requirement in web applications, and this setup enables efficient handling of asynchronous file upload operations while providing progress feedback to the user.
